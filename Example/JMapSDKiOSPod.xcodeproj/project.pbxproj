@@ -13,6 +13,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		C66B10A21D00905B00CC9A27 /* JMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66B10A11D00905B00CC9A27 /* JMap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		940EC26D05F29ED91EF1DD31 /* Pods_JMapSDKiOSPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMapSDKiOSPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B61C6EA82A9C2378AC2003 /* JMapSDKiOSPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JMapSDKiOSPod.podspec; path = ../JMapSDKiOSPod.podspec; sourceTree = "<group>"; };
 		BC11A059C25276779CDAEF96 /* Pods-JMapSDKiOSPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMapSDKiOSPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMapSDKiOSPod_Tests/Pods-JMapSDKiOSPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C66B10A11D00905B00CC9A27 /* JMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JMap.framework; sourceTree = "<group>"; };
 		EF7DF143D123A8ECD32931C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FDA4E1B63673861CE9243283 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +44,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				01609DDD6F8FEDD4CE1C49E9 /* Pods_JMapSDKiOSPod_Tests.framework in Frameworks */,
+				C66B10A21D00905B00CC9A27 /* JMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C66B10A11D00905B00CC9A27 /* JMap.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -336,6 +340,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -359,6 +364,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
