@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JMapSDKiOSPod_Tests' do
+  pod 'JMapSDKiOSPod', :path => '../'
+  
+  
+end
