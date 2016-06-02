@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'This CocoaPod provides the latest version of the Jibestream iOS SDK'
 
-  s.homepage         = 'www.jibestream.com'
+  s.homepage         = 'http://www.jibestream.com/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jibestream' => 'lyuen@jibestream.com' }
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.platform = :ios, '8.0'
-  s.vendored_frameworks = 'JMap.framework'
+  
   s.source_files = 'JMapSDKiOSPod/Classes/**/*'
  
   # s.resource_bundles = {
