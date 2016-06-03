@@ -12,7 +12,7 @@ s.source           = { :git => 'https://github.com/Jibestream/JMapSDKiOSPod.git'
 
 s.ios.deployment_target = '8.0'
 s.platform = :ios, '8.0'
-s.source_files = 'JMapSDKiOSPod/Classes/**/*.{h,m}'
+s.source_files = 'JMapSDKiOSPod/Classes/*.{h,m}'
 s.public_header_files = 'JMapSDKiOSPod/Classes/**/*.h'
 s.vendored_frameworks = 'JMapSDKiOSPod/Frameworks/JMap.framework'
 end
