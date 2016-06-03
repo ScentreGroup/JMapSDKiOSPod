@@ -1,0 +1,6 @@
+framework module JMapSDKiOSPod {
+  umbrella header "JMapSDKiOSPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
