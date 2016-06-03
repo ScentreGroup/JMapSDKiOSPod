@@ -1,22 +1,24 @@
 {
   "name": "JMapSDKiOSPod",
-  "version": "0.1.0",
-  "summary": "A short description of JMapSDKiOSPod.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JMapSDKiOSPod",
+  "version": "1.2.0",
+  "summary": "The Jibestream JMap iOS SDK.",
+  "description": "This CocoaPod provides the latest version of the Jibestream iOS SDK",
+  "homepage": "http://www.jibestream.com/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Louie": "lyuen@jibestream.com"
+    "Jibestream": "lyuen@jibestream.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JMapSDKiOSPod.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Jibestream/JMapSDKiOSPod.git",
+    "tag": "1.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JMapSDKiOSPod/Classes/**/*"
+  "source_files": "JMapSDKiOSPod/Classes/**/*.{h,m}",
+  "public_header_files": "JMapSDKiOSPod/Classes/**/*.h",
+  "vendored_frameworks": "JMapSDKiOSPod/Frameworks/JMap.framework"
 }

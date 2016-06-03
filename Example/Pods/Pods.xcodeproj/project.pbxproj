@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C02ADE83E6C6045563AB057202A266B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		21E122851B0BF53005EB4ED61B18255D /* Pods-JMapSDKiOSPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B1BBB46A5DD30F77E3FC55BC6F3E52 /* Pods-JMapSDKiOSPod_Tests-dummy.m */; };
-		31AB7005C6C21BCA7E696A31309CBE79 /* JMapSDKiOSPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DEE32ED51DC1B46B08117AE15D726D /* JMapSDKiOSPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5577C8F18FA525B096AE4E417E78C7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		603D4BE834FA0D1CA7A9B0A8DD85B426 /* JMapSDKiOSPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A54E1EAE2CC38FA2BEB4E4849AC68DE5 /* JMapSDKiOSPod-dummy.m */; };
+		639B5FFBABB3FC55B968C8EF92100C66 /* Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BCB8F8E917FA409AC1F6E401B32FF9 /* Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BA496CBD5997A4C6B7126638286A786 /* JMapSDKiOSPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E863D232415857083E6220ECB38ED642 /* JMapSDKiOSPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A2C150426521617D05F3D075E4D41DD /* Pods-JMapSDKiOSPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBB678A455C0FCECCDEA37B09775790 /* Pods-JMapSDKiOSPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A8F3DEE2C1236DB79F56BC5297AE58D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C66B10E81D01C5EF00CC9A27 /* Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = C66B10E61D01C5EF00CC9A27 /* Testing.h */; };
-		C66B10E91D01C5EF00CC9A27 /* Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = C66B10E71D01C5EF00CC9A27 /* Testing.m */; };
+		B2FA473B6DB1E301520E471662986BC3 /* Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = B59142884555FDE3C3BBF0858E4B71D3 /* Testing.m */; };
+		B377FC307079C46003228B5CC87FEAD0 /* JMapSDKiOSPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4525FD7BC3C90CFB6945AA4F33D00 /* JMapSDKiOSPod-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,45 +22,38 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9E4AB943C8AFA51D32415B3B4B8F5C4B;
+			remoteGlobalIDString = D7AEDBECA5633678D14B24B064E0158B;
 			remoteInfo = JMapSDKiOSPod;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010CE9E9FEE948C1A16D9DF4978C1A66 /* JMapSDKiOSPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JMapSDKiOSPod.modulemap; sourceTree = "<group>"; };
+		008BF7F812AAE7F28EC21D576A4E4A51 /* JMapSDKiOSPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMapSDKiOSPod-prefix.pch"; sourceTree = "<group>"; };
 		01C4EB6BFA48A17B133D81EA637C2E24 /* Pods-JMapSDKiOSPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMapSDKiOSPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0563983AB6FFF0DFF645F6917064664E /* JMapSDKiOSPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMapSDKiOSPod.xcconfig; sourceTree = "<group>"; };
 		07462D2D7665C77D73E6BF35F23E43F3 /* Pods-JMapSDKiOSPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMapSDKiOSPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2284A8A2C9026042515E05C0046E6720 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32DEE32ED51DC1B46B08117AE15D726D /* JMapSDKiOSPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMapSDKiOSPod-umbrella.h"; sourceTree = "<group>"; };
 		43B81BA45A157DA3ACC59D98AB47D4EB /* JMapSDKiOSPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMapSDKiOSPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF4525FD7BC3C90CFB6945AA4F33D00 /* JMapSDKiOSPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMapSDKiOSPod-dummy.m"; sourceTree = "<group>"; };
 		4E59E20FBA3EB295F436A23F571376F0 /* Pods-JMapSDKiOSPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMapSDKiOSPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		50BCB8F8E917FA409AC1F6E401B32FF9 /* Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
 		511080C398C9D398618EDED2373EB3CA /* Pods_JMapSDKiOSPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMapSDKiOSPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56B71174B29545DF04E4B9901C6AA9C6 /* JMapSDKiOSPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMapSDKiOSPod-prefix.pch"; sourceTree = "<group>"; };
+		76226495D2BB98D20A04EA26515175DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77C4021C77DD43179BC5601FA4CF6EB9 /* Pods-JMapSDKiOSPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMapSDKiOSPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DA629BE8EF796C0B5928D55A8EECA27 /* JMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JMap.framework; path = JMapSDKiOSPod/Frameworks/JMap.framework; sourceTree = "<group>"; };
 		87CE57E4BD749D751DE4A08245BCC670 /* Pods-JMapSDKiOSPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMapSDKiOSPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		8EBB678A455C0FCECCDEA37B09775790 /* Pods-JMapSDKiOSPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMapSDKiOSPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		913218C42F9932382AAEB7CAB914771E /* JMapSDKiOSPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JMapSDKiOSPod.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A54E1EAE2CC38FA2BEB4E4849AC68DE5 /* JMapSDKiOSPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMapSDKiOSPod-dummy.m"; sourceTree = "<group>"; };
+		B59142884555FDE3C3BBF0858E4B71D3 /* Testing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Testing.m; sourceTree = "<group>"; };
 		C141A4EA1900D8F2586FECA2D476AA45 /* Pods-JMapSDKiOSPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMapSDKiOSPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C66B10E61D01C5EF00CC9A27 /* Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
-		C66B10E71D01C5EF00CC9A27 /* Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testing.m; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EC44176F47092AE9079342F7637C9B01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB91305290DE8299A479FF9B6F5F462 /* JMapSDKiOSPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMapSDKiOSPod.xcconfig; sourceTree = "<group>"; };
+		E863D232415857083E6220ECB38ED642 /* JMapSDKiOSPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMapSDKiOSPod-umbrella.h"; sourceTree = "<group>"; };
 		F6B1BBB46A5DD30F77E3FC55BC6F3E52 /* Pods-JMapSDKiOSPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMapSDKiOSPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		F7F6E81EFA38467E80FD4BA0F650E9A7 /* Pods-JMapSDKiOSPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JMapSDKiOSPod_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E8703E28441882E1989A42EDC4D0AA9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5577C8F18FA525B096AE4E417E78C7C6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		38F9DB0E53DA2CDD4BD2883EDFA14807 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,25 +62,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5F070FAD8F278FB54FD1D07AF269B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C02ADE83E6C6045563AB057202A266B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A8589B234A5544634457FE703CFB8E4 /* JMapSDKiOSPod */ = {
+		1346855D2F3C07A6B6B21667D2B2FB10 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5789B4581D9A01503B0B66679866BC5D /* Classes */,
+				80153E0CD176A48E5FF5A09C2027AE6F /* JMapSDKiOSPod */,
 			);
-			path = JMapSDKiOSPod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3982E0B2FD8D6347C2A6632655B55C35 /* JMapSDKiOSPod */ = {
+		1883AD64842424E56A5F99EFBC1B2FD4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A8589B234A5544634457FE703CFB8E4 /* JMapSDKiOSPod */,
-				94F962C70B654D46DFACD904E1D5733A /* Support Files */,
+				7DA629BE8EF796C0B5928D55A8EECA27 /* JMap.framework */,
 			);
-			name = JMapSDKiOSPod;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -96,15 +95,6 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5789B4581D9A01503B0B66679866BC5D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C66B10E61D01C5EF00CC9A27 /* Testing.h */,
-				C66B10E71D01C5EF00CC9A27 /* Testing.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		6448A6629DAB3790DEE2A359618661D4 /* Targets Support Files */ = {
@@ -128,25 +118,39 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C86E4F985917FDDDE6768021CCC3A53A /* Development Pods */,
+				1346855D2F3C07A6B6B21667D2B2FB10 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				72AB0341C03DB3FDD5CC4E401B0F7EB4 /* Products */,
 				6448A6629DAB3790DEE2A359618661D4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		94F962C70B654D46DFACD904E1D5733A /* Support Files */ = {
+		80153E0CD176A48E5FF5A09C2027AE6F /* JMapSDKiOSPod */ = {
 			isa = PBXGroup;
 			children = (
-				EC44176F47092AE9079342F7637C9B01 /* Info.plist */,
-				010CE9E9FEE948C1A16D9DF4978C1A66 /* JMapSDKiOSPod.modulemap */,
-				0563983AB6FFF0DFF645F6917064664E /* JMapSDKiOSPod.xcconfig */,
-				A54E1EAE2CC38FA2BEB4E4849AC68DE5 /* JMapSDKiOSPod-dummy.m */,
-				56B71174B29545DF04E4B9901C6AA9C6 /* JMapSDKiOSPod-prefix.pch */,
-				32DEE32ED51DC1B46B08117AE15D726D /* JMapSDKiOSPod-umbrella.h */,
+				1883AD64842424E56A5F99EFBC1B2FD4 /* Frameworks */,
+				994138C46726526B5D5AAD7D2E8756DC /* JMapSDKiOSPod */,
+				EE8E5D6A77196D74C467E06021D68C9F /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JMapSDKiOSPod";
+			name = JMapSDKiOSPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		994138C46726526B5D5AAD7D2E8756DC /* JMapSDKiOSPod */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC796C9FAA451C3E81E794DFB06B92 /* Classes */,
+			);
+			path = JMapSDKiOSPod;
+			sourceTree = "<group>";
+		};
+		ACDC796C9FAA451C3E81E794DFB06B92 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50BCB8F8E917FA409AC1F6E401B32FF9 /* Testing.h */,
+				B59142884555FDE3C3BBF0858E4B71D3 /* Testing.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -155,14 +159,6 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C86E4F985917FDDDE6768021CCC3A53A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3982E0B2FD8D6347C2A6632655B55C35 /* JMapSDKiOSPod */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D4BDDCE9BD887BBD12A79F95B7493BB8 /* Pods-JMapSDKiOSPod_Tests */ = {
@@ -183,23 +179,37 @@
 			path = "Target Support Files/Pods-JMapSDKiOSPod_Tests";
 			sourceTree = "<group>";
 		};
+		EE8E5D6A77196D74C467E06021D68C9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76226495D2BB98D20A04EA26515175DD /* Info.plist */,
+				913218C42F9932382AAEB7CAB914771E /* JMapSDKiOSPod.modulemap */,
+				DEB91305290DE8299A479FF9B6F5F462 /* JMapSDKiOSPod.xcconfig */,
+				4DF4525FD7BC3C90CFB6945AA4F33D00 /* JMapSDKiOSPod-dummy.m */,
+				008BF7F812AAE7F28EC21D576A4E4A51 /* JMapSDKiOSPod-prefix.pch */,
+				E863D232415857083E6220ECB38ED642 /* JMapSDKiOSPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JMapSDKiOSPod";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1CD612708C4D89B06708AE028DBE6CE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA496CBD5997A4C6B7126638286A786 /* JMapSDKiOSPod-umbrella.h in Headers */,
+				639B5FFBABB3FC55B968C8EF92100C66 /* Testing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E60FB77C5755CC9348438565D4F94A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A2C150426521617D05F3D075E4D41DD /* Pods-JMapSDKiOSPod_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBF3BD1357F2427BA5D29148410245B3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31AB7005C6C21BCA7E696A31309CBE79 /* JMapSDKiOSPod-umbrella.h in Headers */,
-				C66B10E81D01C5EF00CC9A27 /* Testing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,13 +234,13 @@
 			productReference = 511080C398C9D398618EDED2373EB3CA /* Pods_JMapSDKiOSPod_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9E4AB943C8AFA51D32415B3B4B8F5C4B /* JMapSDKiOSPod */ = {
+		D7AEDBECA5633678D14B24B064E0158B /* JMapSDKiOSPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FF5C354E15A7377BA3B3B9561E73355 /* Build configuration list for PBXNativeTarget "JMapSDKiOSPod" */;
+			buildConfigurationList = 03F73CEF59357A3C93AC48EA389DE7D4 /* Build configuration list for PBXNativeTarget "JMapSDKiOSPod" */;
 			buildPhases = (
-				EC65893C8DDA88A645B9FE96F95568A9 /* Sources */,
-				0E8703E28441882E1989A42EDC4D0AA9 /* Frameworks */,
-				BBF3BD1357F2427BA5D29148410245B3 /* Headers */,
+				DB8045F12EBBD4283E7433606F26EED6 /* Sources */,
+				A5F070FAD8F278FB54FD1D07AF269B15 /* Frameworks */,
+				1CD612708C4D89B06708AE028DBE6CE7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -262,7 +272,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E4AB943C8AFA51D32415B3B4B8F5C4B /* JMapSDKiOSPod */,
+				D7AEDBECA5633678D14B24B064E0158B /* JMapSDKiOSPod */,
 				9851BDF2E8B9E2817F0958BB457C86BB /* Pods-JMapSDKiOSPod_Tests */,
 			);
 		};
@@ -277,12 +287,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC65893C8DDA88A645B9FE96F95568A9 /* Sources */ = {
+		DB8045F12EBBD4283E7433606F26EED6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C66B10E91D01C5EF00CC9A27 /* Testing.m in Sources */,
-				603D4BE834FA0D1CA7A9B0A8DD85B426 /* JMapSDKiOSPod-dummy.m in Sources */,
+				B377FC307079C46003228B5CC87FEAD0 /* JMapSDKiOSPod-dummy.m in Sources */,
+				B2FA473B6DB1E301520E471662986BC3 /* Testing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +302,7 @@
 		3B036C8CC96ACFA594F4DA350235FB33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JMapSDKiOSPod;
-			target = 9E4AB943C8AFA51D32415B3B4B8F5C4B /* JMapSDKiOSPod */;
+			target = D7AEDBECA5633678D14B24B064E0158B /* JMapSDKiOSPod */;
 			targetProxy = 66152948B24EC7CCB9B858B0571FFD7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -335,72 +345,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		161E008DEF2A497E0350DD574E0FCB44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0563983AB6FFF0DFF645F6917064664E /* JMapSDKiOSPod.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JMapSDKiOSPod/JMapSDKiOSPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JMapSDKiOSPod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JMapSDKiOSPod/JMapSDKiOSPod.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JMapSDKiOSPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		39CC0700DEC4038CFB6C0CF5A520AAA8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0563983AB6FFF0DFF645F6917064664E /* JMapSDKiOSPod.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JMapSDKiOSPod/JMapSDKiOSPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JMapSDKiOSPod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JMapSDKiOSPod/JMapSDKiOSPod.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JMapSDKiOSPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		68D518DA9B8B47D73F8723CAB183AB03 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -468,6 +412,35 @@
 			};
 			name = Release;
 		};
+		91506801251638BE1E8083F295AF5B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB91305290DE8299A479FF9B6F5F462 /* JMapSDKiOSPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JMapSDKiOSPod/JMapSDKiOSPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMapSDKiOSPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JMapSDKiOSPod/JMapSDKiOSPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JMapSDKiOSPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -510,23 +483,52 @@
 			};
 			name = Debug;
 		};
+		F32D9F0EC85733C4FFD8DD1C37E03D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB91305290DE8299A479FF9B6F5F462 /* JMapSDKiOSPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JMapSDKiOSPod/JMapSDKiOSPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMapSDKiOSPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JMapSDKiOSPod/JMapSDKiOSPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JMapSDKiOSPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		03F73CEF59357A3C93AC48EA389DE7D4 /* Build configuration list for PBXNativeTarget "JMapSDKiOSPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32D9F0EC85733C4FFD8DD1C37E03D06 /* Debug */,
+				91506801251638BE1E8083F295AF5B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
 				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3FF5C354E15A7377BA3B3B9561E73355 /* Build configuration list for PBXNativeTarget "JMapSDKiOSPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39CC0700DEC4038CFB6C0CF5A520AAA8 /* Debug */,
-				161E008DEF2A497E0350DD574E0FCB44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
