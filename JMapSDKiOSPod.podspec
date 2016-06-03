@@ -10,9 +10,10 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Jibestream' => 'lyuen@jibestream.com' }
 s.source           = { :git => 'https://github.com/Jibestream/JMapSDKiOSPod.git', :tag => "#{s.version}" }
 
+s.frameworks = 'UIKit'
 s.ios.deployment_target = '8.0'
 s.platform = :ios, '8.0'
 s.source_files = 'JMapSDKiOSPod/Classes/*.{h,m}'
-s.public_header_files = 'JMapSDKiOSPod/Classes/**/*.h'
+s.public_header_files = 'JMapSDKiOSPod/Classes/*.h'
 s.vendored_frameworks = 'JMapSDKiOSPod/Frameworks/JMap.framework'
 end
