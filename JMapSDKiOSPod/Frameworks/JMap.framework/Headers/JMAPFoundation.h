@@ -13,7 +13,7 @@
 /**
  * To build for the following end points #define one of the following keys
  * AMGEN_DEV or WESTFIELD_UAT or WESTFIELD_PROD for REQUESTURL
- * You should implement "JMapDataSource" method JMapAPIRequestURL: if your server environement has changed
+ * You should implement "JMapDataSource" method setAPIRequestURLForClient: if your server environement has changed
  */
 #define WESTFIELD_PROD
 FOUNDATION_EXTERN NSString *const REQUESTURL;

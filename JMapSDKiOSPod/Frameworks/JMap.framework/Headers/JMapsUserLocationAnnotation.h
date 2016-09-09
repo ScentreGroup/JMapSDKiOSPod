@@ -15,16 +15,20 @@
  */
 @interface JMapsUserLocationAnnotation : MKAnnotationView
 /// default is same as MKUserLocationView
+
+// Singleton implementation
++ (instancetype)sharedInstance;
+
 @property (nonatomic, strong) UIColor *annotationColor;
 /// default is same as annotationColor
 @property (nonatomic, strong) UIColor *innerPulseColor;
 @property (nonatomic, strong) UIColor *outerPulseColor;
 /// default is nil
 @property (nonatomic, strong) UIImage *image;
-@property (nonatomic, strong) UIWebView *webView;
 @property (nonatomic, readwrite) CGAffineTransform userLocationTransform;
 @property (nonatomic, readwrite) float startAlpha;
 @property (nonatomic, readwrite) float endAlpha;
+@property (nonatomic, readwrite) float speed;
 @property (nonatomic, readwrite) float confidenceAlpha;
 @property (nonatomic) JMAPPoint userCenter;
 /// default is 5.3

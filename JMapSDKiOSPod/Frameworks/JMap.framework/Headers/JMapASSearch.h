@@ -20,7 +20,7 @@
 @property NSString *TAG;
 @property JMapASGrid *grid;
 
--(NSMutableArray *)search:(int)from to:(int)to accessLevel:(int)accessLevel;
+- (NSMutableArray<JMapPathPerFloor*>*)search:(int)from to:(int)to accessLevel:(int)accessLevel;
 //CFComparisonResult compare (const void *ptr1,const void *ptr2,void *info);
 
 @end
