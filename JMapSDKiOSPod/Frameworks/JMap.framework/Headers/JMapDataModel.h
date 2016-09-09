@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JMapLabel.h"
 
 @class JMapSVGStyle;
 @class JMapFloor;
@@ -15,10 +16,9 @@
 
 @end
 
-// ==========================
-// JMap JMapEvents data model
-// ==========================
+#pragma mark - JMap JMapEvents data model
 @interface JMapEvents : NSObject
+
 /*!
  * Identifier for the JMapEvents object
  */
@@ -66,9 +66,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ==================================
-// JMap JMapOperatingHours data model
-// ==================================
+#pragma mark - JMapOperatingHours data model
 @interface JMapOperatingHours : NSObject
 @property (nonatomic, strong, readonly) NSString *clientid;
 @property (nonatomic, strong, readonly) NSDate *createTs;
@@ -80,9 +78,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ================================
-// JMap JMapPointOnFloor data model
-// ================================
+#pragma mark - JMapPointOnFloor data model
 @interface JMapPointOnFloor : NSObject
 /*!
  * X-coordinate for the point on floor
@@ -106,9 +102,7 @@
 -(instancetype)initWithX:(float)x withY:(float)y withFloor:(JMapFloor *)floor;
 @end
 
-// ============
-// JMapAMStyles
-// ============
+#pragma mark - JMapAMStyles
 @interface JMapAMStyles : NSObject
 /*!
  * Foreground styling for JMapAmenity objects
@@ -156,17 +150,13 @@
 -(void)setStyleB:(JMapSVGStyle *)b;
 @end
 
-// ==============================
-// JMap JMapAnnotation data model
-// ==============================
+#pragma mark - JMapAnnotation data model
 @interface JMapAnnotation : NSObject
 @property (nonatomic, strong) NSString *iconImagePath;
 @property (nonatomic, strong) NSString *localizedText;
 @end
 
-// =============
-// JMapAddresses
-// =============
+#pragma mark - JMapAddresses
 @interface JMapAddresses : NSObject
 @property (strong, nonatomic, readonly) NSNumber *addressId;
 @property (strong, nonatomic, readonly) NSString *street1;
@@ -180,9 +170,7 @@
 @property (strong, nonatomic, readonly) NSNumber *entityType;
 @end
 
-// =============================
-// JMap JMapLocations data model
-// =============================
+#pragma mark - JMapLocations data model
 @interface JMapLocations : NSObject
 /*!
  * Unique ID for location in server URL endpoint
@@ -225,9 +213,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ========================
-// JMap Category data model
-// ========================
+#pragma mark - JMapCategoryModel data model
 @interface JMapCategoryModel : NSObject
 /*!
  * Unique ID associated with the JMapCategoryModel
@@ -280,9 +266,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ============================
-// JMap JMapPathData data model
-// ============================
+#pragma mark - JMapPathData data model
 @interface JMapPathData : NSObject
 /*!
  * Unique identifier for the JMapPathData objects
@@ -321,9 +305,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ====================================
-// JMap JMapPathDataTypesURI data model
-// ====================================
+#pragma mark - JMapPathDataTypesURI data model
 @interface JMapPathDataTypesURI : NSObject
 @property (nonatomic, strong, readonly) NSNumber *uriId;
 @property (nonatomic, strong, readonly) NSNumber *uriTypeId;
@@ -334,9 +316,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// =================================
-// JMap JMapPathDataTypes data model
-// =================================
+#pragma mark - JMapPathDataTypes data model
 @interface JMapPathDataTypes : NSObject
 /*!
  * Unique ID for each type of possible path (see JMapPathData type)
@@ -387,9 +367,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ===============
-// JMapProximities
-// ===============
+#pragma mark - JMapProximities
 @interface JMapProximities : NSObject
 @property (nonatomic, strong, readonly) NSNumber *onSameFloor;
 /*!
@@ -411,9 +389,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ============================
-// JMap JMapExtensor data model
-// ============================
+#pragma mark - JMapExtensor data model
 @interface JMapExtensor : NSObject
 /*!
  * Name of the extensor defined in content manager
@@ -442,9 +418,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// =========================================
-// JMap JMapOperatingHoursDetails data model
-// =========================================
+#pragma mark - JMapOperatingHoursDetails data model
 @interface JMapOperatingHoursDetails : NSObject
 @property (nonatomic, strong, readonly) NSNumber *opHoursId;
 @property (nonatomic, strong, readonly) NSNumber *opHoursDetailsId;
@@ -457,9 +431,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ==========================================
-// JMap JMapOperatingHoursEntities data model
-// ==========================================
+#pragma mark - JMapOperatingHoursEntities data model
 @interface JMapOperatingHoursEntities : NSObject
 @property (nonatomic, strong, readonly) NSNumber *entityTypeId;
 @property (nonatomic, strong, readonly) NSNumber *opHoursId;
@@ -467,9 +439,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ==============
-// JMap Schedules
-// ==============
+#pragma mark - JMapSchedules data model
 @interface JMapSchedules : NSObject
 /*!
  * Unique identifier for the schedule
@@ -497,9 +467,7 @@
 @property (nonatomic, strong, readonly) NSNumber *projectId;
 @end
 
-// ===============================
-// JMap JMapDestination data model
-// ===============================
+#pragma mark - JMapDestination data model
 @interface JMapDestination : NSObject
 /*!
  * Unique identifier assigned to the destination
@@ -600,9 +568,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ===========================
-// JMap JMapDevices data model
-// ===========================
+#pragma mark - JMapDevices data model
 @interface JMapDevices : NSObject
 /*!
  * Unique identifier for the device
@@ -674,9 +640,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// =============================
-// JMap JMapMapLabels data model
-// =============================
+#pragma mark - JMapMapLabels data model
 @interface JMapMapLabels : NSObject
 @property (nonatomic, strong, readonly) NSString *uri;
 @property (nonatomic, strong, readonly) NSString *webPath;
@@ -728,9 +692,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ====================================
-// JMap JMapDestinationLabel data model
-// ====================================
+#pragma mark - JMapDestinationLabel data model
 @interface JMapDestinationLabel : NSObject
 @property (nonatomic, strong, readonly) NSString *description;
 @property (nonatomic, strong, readonly) NSString *label;
@@ -758,9 +720,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// =======================================
-// JMap JMapWaypointAssociation data model
-// =======================================
+#pragma mark - JMapWaypointAssociation data model
 @interface JMapWaypointAssociation : NSObject
 /*!
  * Entity type ID associated with the waypoint
@@ -795,9 +755,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ============================
-// JMap JMapWaypoint data model
-// ============================
+#pragma mark - JMapWaypoint data model
 @interface JMapWaypoint : NSObject
 /*!
  * Unique idenitifer of the waypoint
@@ -845,9 +803,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ===============================
-// JMap JMapZoneDetails data model
-// ===============================
+#pragma mark - JMapZoneDetails data model
 @interface JMapZoneDetails : NSObject
 @property (nonatomic, strong, readonly) NSNumber *languageId;
 /*!
@@ -863,15 +819,17 @@
  */
 @property (nonatomic, strong, readonly) NSNumber *zoneId;
 /*!
+ * Zone Type Id
+ */
+@property (nonatomic, strong, readonly) NSNumber *zoneTypeId;
+/*!
  * Name associated with the zone defined in content manager
  */
 @property (nonatomic, strong, readonly) NSString *zoneName;
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// ========================
-// JMap JMapZone data model
-// ========================
+#pragma mark - JMapZone data model
 @interface JMapZone : NSObject
 @property (nonatomic, strong, readonly) NSString *clientId;
 /*!
@@ -887,28 +845,115 @@
  */
 @property (nonatomic, strong, readonly) NSNumber *zoneId;
 /*!
+ * Zone Type Id
+ */
+@property (nonatomic, strong, readonly) NSNumber *typeId;
+/*!
  * List of JMapZoneDetails objects
  */
-@property (nonatomic, strong, readonly) NSArray *zoneDetails;
+@property (nonatomic, strong, readonly) NSArray<JMapZoneDetails*>*zoneDetails;
 -(instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
-// =========================
-// JMap JMapFloor data model
-// =========================
+#pragma mark - JMapAmenity data model
+@interface JMapAmenity : NSObject
+/*!
+ * Identifier for the JMapAmenity object
+ */
+@property (nonatomic, strong, readonly) NSNumber *componentId;
+/*!
+ * Type identifier for the JMapAmenity object
+ */
+@property (nonatomic, strong, readonly) NSNumber *componentTypeId;
+/*!
+ * Text defined in the Localized Text field in content manager
+ */
+@property (nonatomic, strong, readonly) NSString *localizedText;
+/*!
+ * Name of the component type (i.e. Legend Item)
+ */
+@property (nonatomic, strong, readonly) NSString *componentTypeName;
+/*!
+ * Description defined in content manager
+ */
+@property (nonatomic, strong, readonly) NSString *description;
+/*!
+ * Start date of the amenity set by user in content manager
+ */
+@property (nonatomic, strong, readonly) NSNumber *startDate;
+/*!
+ * End date of the amenity set by user in content manager
+ */
+@property (nonatomic, strong, readonly) NSNumber *endDate;
+@property (nonatomic, strong, readonly) NSString *position;
+/*!
+ * URL of the JMapAmenity icon
+ */
+@property (nonatomic, strong, readonly) NSString *filePath;
+/*!
+ * Name defined in the Name field in content manager
+ */
+@property (nonatomic, strong, readonly) NSString *name;
+@property (nonatomic, strong, readonly) NSString *iconImagePath;
+/*!
+ * Project ID associated with the amenity
+ */
+@property (nonatomic, strong, readonly) NSNumber *projectId;
+/*!
+ * List of JMapDestination objects associated with the amenity
+ */
+@property (nonatomic, strong, readonly) NSArray<JMapDestination*>*destinations;
+/*!
+ * List of JMapWaypoint objects associated with the amenity
+ */
+@property (nonatomic, strong, readonly) NSArray<JMapWaypoint*>*waypoints;
+@property (nonatomic) BOOL isAmenity;
+@property (nonatomic, strong) JMapAnnotation *annotation;
+/*!
+ * Location ID associated with the amenity
+ */
+@property (nonatomic, strong, readonly) NSNumber *locationId;
+@property (nonatomic, strong, readonly) NSString *uri;
+@property (nonatomic, strong, readonly) NSString *label;
+/*!
+ * JMapFloor mapId associated with the amenity
+ */
+@property (nonatomic, strong, readonly) NSNumber *mapId;
+@property (nonatomic, strong, readonly) NSNumber *typeId;
+@property (nonatomic, strong, readonly) NSString *locationX;
+@property (nonatomic, strong, readonly) NSString *locationY;
+@property (nonatomic, strong, readonly) NSString *ck;
+/*!
+ * URL of the JMapAmenity icon in PNG format
+ */
+@property (nonatomic, strong, readonly) NSString *iconImage;
+@property (nonatomic, strong, readonly) NSNumber *compgroup;
+@property (nonatomic, strong, readonly) NSString *rotation;
+@property (nonatomic, strong, readonly) NSNumber *zoomlevel;
+@property (nonatomic, strong, readonly) NSString *metaData;
+/*!
+ * URL of the JMapAmenity icon in SVG format for Web
+ */
+@property (nonatomic, strong, readonly) NSString *webPath;
+@property (nonatomic, strong, readonly) NSString *svg;
+@property (nonatomic, strong, readonly) NSNumber *sequenceNumber;
+-(instancetype)initWithDictionary:(NSDictionary *)dict;
+@end
+
+#pragma mark - JMapFloor data model
 @interface JMapFloor : NSObject
 /*!
  * List of JMapAmenity objects on the floor
  */
-@property (nonatomic, strong, readonly) NSArray *amenities;
+@property (nonatomic, strong, readonly) NSArray<JMapAmenity*>*amenities;
 /*!
  * List of JMapAmenity objects that are people movers on the floor
  */
-@property (nonatomic, strong, readonly) NSArray *movers;
+@property (nonatomic, strong, readonly) NSArray<JMapAmenity*>*movers;
 /*!
  * List of JMapWaypoint objects on the floor
  */
-@property (nonatomic, strong, readonly) NSArray *waypoints;
+@property (nonatomic, strong, readonly) NSArray <JMapWaypoint*>*waypoints;
 @property (nonatomic, strong, readonly) NSArray *destinationLabels;
 /*!
  * XML string containing the SVG data
@@ -1010,90 +1055,7 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dict withPaths:(NSArray *)withPaths withPathTypes:(NSArray *)withPathTypes withURL:(NSString *)withURL;
 @end
 
-// ===========================
-// JMap JMapAmenity data model
-// ===========================
-@interface JMapAmenity : NSObject
-/*!
- * Identifier for the JMapAmenity object
- */
-@property (nonatomic, strong, readonly) NSNumber *componentId;
-/*!
- * Type identifier for the JMapAmenity object
- */
-@property (nonatomic, strong, readonly) NSNumber *componentTypeId;
-/*!
- * Text defined in the Localized Text field in content manager
- */
-@property (nonatomic, strong, readonly) NSString *localizedText;
-/*!
- * Name of the component type (i.e. Legend Item)
- */
-@property (nonatomic, strong, readonly) NSString *componentTypeName;
-/*!
- * Description defined in content manager
- */
-@property (nonatomic, strong, readonly) NSString *description;
-/*!
- * Start date of the amenity set by user in content manager
- */
-@property (nonatomic, strong, readonly) NSNumber *startDate;
-/*!
- * End date of the amenity set by user in content manager
- */
-@property (nonatomic, strong, readonly) NSNumber *endDate;
-@property (nonatomic, strong, readonly) NSString *position;
-/*!
- * URL of the JMapAmenity icon
- */
-@property (nonatomic, strong, readonly) NSString *filePath;
-/*!
- * Name defined in the Name field in content manager
- */
-@property (nonatomic, strong, readonly) NSString *name;
-@property (nonatomic, strong, readonly) NSString *iconImagePath;
-/*!
- * Project ID associated with the amenity
- */
-@property (nonatomic, strong, readonly) NSNumber *projectId;
-/*!
- * List of JMapDestination objects associated with the amenity
- */
-@property (nonatomic, strong, readonly) NSArray *destinations;
-/*!
- * List of JMapWaypoint objects associated with the amenity
- */
-@property (nonatomic, strong, readonly) NSArray *waypoints;
-@property (nonatomic) BOOL isAmenity;
-@property (nonatomic, strong) JMapAnnotation *annotation;
-/*!
- * Location ID associated with the amenity
- */
-@property (nonatomic, strong, readonly) NSNumber *locationId;
-@property (nonatomic, strong, readonly) NSString *uri;
-@property (nonatomic, strong, readonly) NSString *label;
-/*!
- * JMapFloor mapId associated with the amenity
- */
-@property (nonatomic, strong, readonly) NSNumber *mapId;
-@property (nonatomic, strong, readonly) NSNumber *typeId;
-@property (nonatomic, strong, readonly) NSString *locationX;
-@property (nonatomic, strong, readonly) NSString *locationY;
-@property (nonatomic, strong, readonly) NSString *ck;
-@property (nonatomic, strong, readonly) NSString *iconImage;
-@property (nonatomic, strong, readonly) NSNumber *compgroup;
-@property (nonatomic, strong, readonly) NSString *rotation;
-@property (nonatomic, strong, readonly) NSNumber *zoomlevel;
-@property (nonatomic, strong, readonly) NSString *metaData;
-@property (nonatomic, strong, readonly) NSString *webPath;
-@property (nonatomic, strong, readonly) NSString *svg;
-@property (nonatomic, strong, readonly) NSNumber *sequenceNumber;
--(instancetype)initWithDictionary:(NSDictionary *)dict;
-@end
-
-// ================================
-// JMap JMapFloorSVGData data model
-// ================================
+#pragma mark - JMapFloorSVGData data model
 @interface JMapFloorSVGData : NSObject
 /*!
  * View box received from the SVG file for floor
@@ -1110,9 +1072,7 @@
 -(instancetype)initWithData:(NSValue *)viewBoxIn stylesIn:(NSDictionary *)stylesIn shapeArrayIn:(NSArray *)shapeArrayIn;
 @end
 
-// =========================
-// JMap JMapVenue data model
-// =========================
+#pragma mark - JMapVenue data model
 @interface JMapVenue : NSObject
 /*!
  * List of locations at server URL endpoint
@@ -1121,53 +1081,52 @@
 /*!
  * List of all amenities in the venue, JMapAmenity objects,
  */
-@property (nonatomic, strong, readonly) NSArray *amenities;
+@property (nonatomic, strong, readonly) NSArray<JMapAmenity*>*amenities;
 /*!
  * List of all people movers in the venue, JMapAmenity objects
  */
-@property (nonatomic, strong, readonly) NSArray *movers;
+@property (nonatomic, strong, readonly) NSArray<JMapAmenity*>*movers;
 /*!
  * List of all destinations in the venue, JMapDestination objects
  */
-@property (nonatomic, strong, readonly) NSArray *destinations;
+@property (nonatomic, strong, readonly) NSArray<JMapDestination*>*destinations;
 /*!
  * List of all devices in the venue, JMapDevices objects
  */
-@property (nonatomic, strong, readonly) NSArray *devices;
+@property (nonatomic, strong, readonly) NSArray<JMapDevices*>*devices;
 /*!
  * List of all maps/floors in the venue, JMapFloor objects
  */
-@property (nonatomic, strong, readonly) NSArray *maps;
+@property (nonatomic, strong, readonly) NSArray<JMapFloor*>*maps;
 /*!
  * List of all paths in the venue, JMapPathData objects
  */
-@property (nonatomic, strong, readonly) NSArray *paths;
+@property (nonatomic, strong, readonly) NSArray<JMapPathData*>*paths;
 /*!
  * List of all path types in the venue, JMapPathDataTypes objects
  */
-@property (nonatomic, strong, readonly) NSArray *pathTypes;
+@property (nonatomic, strong, readonly) NSArray<JMapPathDataTypes*>*pathTypes;
 /*!
  * List of all events for venue, JMapEvents objects
  */
-@property (nonatomic, strong, readonly) NSArray *events;
+@property (nonatomic, strong, readonly) NSArray<JMapEvents*>*events;
 /*!
  * List of all waypoints in the venue, JMapWayPoint objects
  */
-@property (nonatomic, strong, readonly) NSArray *waypoints;
+@property (nonatomic, strong, readonly) NSArray<JMapWaypoint*>*waypoints;
 /*!
  * List of all categories in the venue, JMapCategoryModel objects
  */
-@property (nonatomic, strong, readonly) NSArray *categories;
-@property (nonatomic, strong, readonly) NSArray *extractedMovers;
+@property (nonatomic, strong, readonly) NSArray<JMapCategoryModel*>*categories;
 /*!
  * List of all street labels in the map, JMapMapLabels ojbects
  */
-@property (nonatomic, strong, readonly) NSArray *maptext;
-@property (nonatomic, strong, readonly) NSArray *locationsHierarchy;
+@property (nonatomic, strong, readonly) NSArray<JMapMapLabels*>*maptext;
+@property (nonatomic, strong, readonly) NSArray<JMapMapLabels*>*locationsHierarchy;
 /*!
  * List of all zones in the venue, JMapZone objects
  */
-@property (nonatomic, strong, readonly) NSArray *zones;
+@property (nonatomic, strong, readonly) NSArray<JMapZone*>*zones;
 /*!
  * Initialization method for JMapVenue
  * @param dict containing key value pairs of properties
