@@ -190,7 +190,7 @@
  * Show only selected map layers
  * @param mapLayer a list of layer names to be shown
  */
-- (void)showOnlyMapLayers:(NSArray <JMapBaseElement*>*)mapLayers;
+- (void)showOnlyMapLayers:(NSArray <NSString*>*)mapLayers;
 
 /*!
  * Reset and make map layers visible
