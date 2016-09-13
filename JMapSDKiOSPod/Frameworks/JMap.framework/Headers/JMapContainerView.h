@@ -452,9 +452,9 @@
  * @param addTDifEmptyMeters float threshold used for combining text directions (continue past)
  * @param UTurnInMeters float threshold for initiating a u-turn
  * @param customThreshHolds UIKitHelperCustomThresholds*
- * @return An NSArray* of NSString* object(s)
+ * @return An NSArray* of JMapTextDirectionInstruction* object(s)
  */
-- (NSArray <NSArray <NSString*>*>*)makeTextDirections:(NSArray <JMapPathPerFloor*>*)wayfindArray filterOn:(BOOL)filterOn addTDifEmptyMeters:(float)addTDifEmptyMeters UTurnInMeters:(float)UTurnInMeters customThreshHolds:(UIKitHelperCustomThresholds *)customThreshHolds;
+- (NSArray <NSArray*>*)makeTextDirections:(NSArray <JMapPathPerFloor*>*)wayfindArray filterOn:(BOOL)filterOn addTDifEmptyMeters:(float)addTDifEmptyMeters UTurnInMeters:(float)UTurnInMeters customThreshHolds:(UIKitHelperCustomThresholds *)customThreshHolds;
 // Obsolete as of 1.0.11
 // Use makeTextDirections:filterOn:addTDifEmptyMeters:UTurnInMeters:
 //-(NSArray *)findTextDirectionsFromUnit:(int)fromUnitId toUnit:(int)toUnit accessibility:(int)accessibility;
