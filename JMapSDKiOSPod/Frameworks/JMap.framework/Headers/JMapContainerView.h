@@ -1559,6 +1559,11 @@
 - (void)client:(JMapContainerView *)client willLoadCustomCSSDictionaryHandlerWithCompletion:(void(^)(JMapCustomStyleSheet*))completion;
 
 /*!
+ * Delegate method to indicate wayfind data is ready
+ */
+-(void)jMapWayfindDataLoaded;
+
+/*!
  * The touchInfo dictionary can be populated with of any the given objects noted above
  * Keys:
  *   kJMAPDataUnits
