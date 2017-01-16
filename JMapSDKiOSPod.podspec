@@ -6,7 +6,6 @@ s.summary          = 'The Jibestream JMap iOS SDK.'
 s.description      = 'This CocoaPod provides the latest version of the Jibestream iOS SDK'
 
 s.homepage         = 'http://www.jibestream.com/'
-s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Jibestream' => 'lyuen@jibestream.com' }
 s.source           = { :git => 'https://github.com/Jibestream/JMapSDKiOSPod.git', :tag => "#{s.version}" }
 
