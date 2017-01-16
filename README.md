@@ -23,7 +23,3 @@ pod "JMapSDKiOSPod"
 ## Author
 
 Louie, lyuen@jibestream.com
-
-## License
-
-JMapSDKiOSPod is available under the MIT license. See the LICENSE file for more info.
