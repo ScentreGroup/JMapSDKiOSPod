@@ -248,6 +248,6 @@ typedef void (^JavascriptsWaypointCompletion)(NSArray *waypoints);
 /*!
  * Measure App CPU usage
  */
-float cpu_usage();
+float cpu_usage(void);
 
 
